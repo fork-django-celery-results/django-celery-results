@@ -1,2 +1,2 @@
-celery==4.4.7
+celery==4.4.7    # Comment out line before unit testing. Pip issue
 kombu==4.6.11
