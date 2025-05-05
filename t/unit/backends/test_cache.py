@@ -22,7 +22,7 @@ class SomeClass(object):
 
 class test_CacheBackend:
 
-    def setup(self):
+    def setup_method(self):
         self.b = CacheBackend(app=self.app)
 
     def test_mark_as_done(self):

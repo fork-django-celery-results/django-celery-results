@@ -10,7 +10,7 @@ import re
 
 from collections import namedtuple
 
-__version__ = '1.2.1'
+__version__ = '1.2.1.post1'
 __author__ = 'Asif Saif Uddin, Ask Solem'
 __contact__ = 'auvipy@gmai.com, ask@celeryproject.org'
 __homepage__ = 'https://github.com/celery/django-celery-results'
@@ -32,5 +32,3 @@ del(_temp)
 del(re)
 
 __all__ = []
-
-default_app_config = 'django_celery_results.apps.CeleryResultConfig'
